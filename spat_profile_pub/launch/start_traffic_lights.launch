@@ -1,0 +1,14 @@
+<launch>
+    <!-- Use the argument to set the profile_number parameter -->
+    <param name="profile_number" value="$(arg profile_number)"/>
+    
+    <!-- Path to the configuration YAML file -->
+    <param name="traffic_lights_config_path" type="string" value="$(find spat_profile_pub)/config/traffic_lights_config.yaml"/>
+
+    <!-- Launching the traffic lights node -->
+    <node pkg="spat_profile_pub" type="spat_publisher.py" name="spat_publisher" output="screen"/>
+    
+    <node pkg="spat_profile_pub" type="traffic_light_visualizer.py" name="traffic_light_visualizer" output="screen"/>
+
+</launch>
+

@@ -1,0 +1,52 @@
+traffic_lights:
+  1:  # Use integer ID instead of 'tl1'
+    states: [6, 8, 3]
+    durations: [35, 5, 50]
+  2:  # Use integer ID instead of 'tl2'
+    states: [6, 8, 3]
+    durations: [25, 5, 60]
+  3:  # Use integer ID instead of 'tl3'
+    states: [6, 8, 3]
+    durations: [25, 5, 60]
+  4:  # Use integer ID instead of 'tl4'
+    states: [6, 8, 3]
+    durations: [30, 5, 55]
+  5:  # Use integer ID instead of 'tl5'
+    states: [3, 6, 8]
+    durations: [72, 15, 3]
+  6:  # Use integer ID instead of 'tl6'
+    states: [6, 8, 3]
+    durations: [42, 3, 45]
+  7:  # Use integer ID instead of 'tl7'
+    states: [3, 6, 8]
+    durations: [45, 42, 3]
+  8:  # Use integer ID instead of 'tl8'
+    states: [6, 8, 3]
+    durations: [42, 3, 45]
+  9:  # Use integer ID instead of 'tl9'
+    states: [6, 8, 3]
+    durations: [42, 3, 45]
+  10:  # Use integer ID instead of 'tl10'
+    states: [3, 6, 8]
+    durations: [45, 42, 3]
+  11:  # Use integer ID instead of 'tl11'
+    states: [3, 6, 8]
+    durations: [58, 8, 24]
+  12:  # Use integer ID instead of 'tl12'
+    states: [3, 6, 8]
+    durations: [50, 35, 5]
+  13:  # Use integer ID instead of 'tl13'
+    states: [6, 8, 3]
+    durations: [42, 3, 45]
+  14:  # Use integer ID instead of 'tl14'
+    states: [6, 8, 3]
+    durations: [25, 10, 55]
+  15:  # Use integer ID instead of 'tl15'
+    states: [6, 8, 3]
+    durations: [30, 6, 54]
+  16:  # Use integer ID instead of 'tl16'
+    states: [6, 8, 3]
+    durations: [30, 6, 54]
+  17:  # Use integer ID instead of 'tl17'
+    states: [6, 8, 3]
+    durations: [42, 3, 45]
